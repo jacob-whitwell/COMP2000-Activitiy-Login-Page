@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">COMP2000-Activitiy-Login-Page</string>
+    <string name="login_page">Login Page</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="forgotPassword">Forgot Password</string>
 </resources>
