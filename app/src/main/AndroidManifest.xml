@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.comp2000_activitiy_login_page">
+    package="com.example.comp2000_activity_login_page">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COMP2000ActivitiyLoginPage">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.comp2000_activity_login_page.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

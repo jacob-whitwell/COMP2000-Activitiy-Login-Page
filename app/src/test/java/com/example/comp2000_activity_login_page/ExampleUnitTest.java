@@ -1,4 +1,4 @@
-package com.example.comp2000_activitiy_login_page;
+package com.example.comp2000_activity_login_page;
 
 import org.junit.Test;
 
