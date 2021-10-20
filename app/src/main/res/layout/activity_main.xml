@@ -18,6 +18,7 @@
         android:inputType="text"
         android:minWidth="160dp"
         android:minHeight="48dp"
+        android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/username"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -38,12 +39,12 @@
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="32dp"
-        android:onClick="sendMessage"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="100dp"
+        android:onClick="login"
         android:text="@string/login"
         android:textColor="@color/grey"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_input" />
 
     <Button
@@ -51,11 +52,12 @@
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
         android:text="@string/sign_up"
         android:textColor="@color/grey"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="signUp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_input" />
 
     <TextView
@@ -106,6 +108,7 @@
         android:inputType="textPassword"
         android:minWidth="160dp"
         android:minHeight="48dp"
+        android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/password"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
