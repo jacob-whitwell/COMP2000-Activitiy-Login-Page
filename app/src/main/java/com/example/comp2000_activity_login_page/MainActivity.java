@@ -6,10 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "com.example.comp2000_activity_login_page.MESSAGE";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,14 +27,13 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
 
         // EditText is a field where you can input stuff (I think?)
-        EditText editText = (EditText) findViewById(R.id.editTextTextPersonName);
+        EditText usernameEditText = (EditText) findViewById(R.id.username_input);
 
         // This just sets the string to editText
-        String message = editText.getText().toString();
+        String message = usernameEditText.getText().toString();
 
-        // I guess this makes the
+        // putExtra() adds the value of the parameters to the intent
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
-
     }
 }

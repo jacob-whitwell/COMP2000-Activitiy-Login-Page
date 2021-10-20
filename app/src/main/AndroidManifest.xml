@@ -10,7 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COMP2000ActivitiyLoginPage">
         <activity
-            android:name="com.example.comp2000_activity_login_page.MainActivity"
+            android:name=".DisplayMessageActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
