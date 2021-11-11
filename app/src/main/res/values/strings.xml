@@ -5,6 +5,8 @@
     <string name="password">Password</string>
     <string name="sign_up">Sign Up</string>
     <string name="login">Login</string>
+    <string name="logged_in">You\'ve now been logged in</string>
     <string name="forgotPassword">Forgot Password</string>
     <string name="displayMessage">TextView</string>
+    <string name="create_account">Create Account</string>
 </resources>

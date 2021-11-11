@@ -18,7 +18,10 @@ public class LoginActivity extends AppCompatActivity {
         String username = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
         // Capture the layout's TextView and set the string as its text
-        TextView textView = findViewById(R.id.loginTitle);
+        TextView loginTitle = findViewById(R.id.loginTitle);
+
+        TextView welcome = findViewById(R.id.welcomeMessage);
+        welcome.setText("Welcome, " + username);
 
     }
 
